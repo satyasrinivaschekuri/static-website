@@ -11,15 +11,18 @@ const About = () => {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
-            <p className="font-mono text-sm tracking-widest uppercase text-primary">About us</p>
+            <p className="font-mono text-sm tracking-widest uppercase text-primary">Who We Are</p>
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
-              Your technology partner for digital transformation
+              About Us
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              We partner with startups, enterprises, and technology teams to design, build, and scale modern digital platforms. Our expertise spans cloud architecture, enterprise integration, AI-driven solutions, and specialized IT talent services.
+              Srivi Technologies is a modern technology services company focused on delivering high-quality software engineering solutions and technology talent to organizations building next-generation digital platforms.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              At Srivi Technologies, we believe technology should be an accelerator, not a bottleneck. Every solution we deliver is engineered for performance, security, and long-term scalability.
+              Our team consists of experienced software architects, engineers, and technology consultants who specialize in solving complex technical challenges using modern cloud platforms and emerging technologies.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              We work closely with organizations to translate business ideas into scalable technical solutions while ensuring reliability, security, and long-term maintainability.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-6">
