@@ -13,13 +13,13 @@ const About = () => {
           <div className="space-y-6">
             <p className="font-mono text-sm tracking-widest uppercase text-primary">About us</p>
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
-              Engineering reliability at scale
+              Your technology partner for digital transformation
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Founded with a mission to simplify enterprise technology, we partner with businesses to architect, build, and maintain the systems that keep them competitive. Our team combines deep technical expertise with a relentless focus on outcomes.
+              We partner with startups, enterprises, and technology teams to design, build, and scale modern digital platforms. Our expertise spans cloud architecture, enterprise integration, AI-driven solutions, and specialized IT talent services.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              We believe technology should be an accelerator, not a bottleneck. Every solution we deliver is designed for performance, security, and longevity.
+              At Srivi Technologies, we believe technology should be an accelerator, not a bottleneck. Every solution we deliver is engineered for performance, security, and long-term scalability.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-6">
