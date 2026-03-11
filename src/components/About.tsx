@@ -1,9 +1,3 @@
-const stats = [
-  { value: "12+", label: "Years Experience" },
-  { value: "200+", label: "Projects Delivered" },
-  { value: "99.9%", label: "Uptime SLA" },
-  { value: "50+", label: "Engineers" },
-];
 
 const About = () => {
   return (
