@@ -1,12 +1,12 @@
-import { Cloud, Shield, Server, Code, BarChart3, Headphones } from "lucide-react";
+import { Cloud, Shield, Server, Code, BarChart3, Users } from "lucide-react";
 
 const services = [
-  { icon: Cloud, title: "Cloud Infrastructure", description: "Design, migrate, and manage scalable cloud environments on AWS, Azure, and GCP." },
-  { icon: Shield, title: "Cybersecurity", description: "Protect your assets with threat detection, compliance audits, and zero-trust architecture." },
-  { icon: Server, title: "Managed IT Services", description: "24/7 monitoring, maintenance, and support so you can focus on what matters." },
-  { icon: Code, title: "Software Development", description: "Custom applications, APIs, and integrations tailored to your business workflows." },
-  { icon: BarChart3, title: "Data & Analytics", description: "Turn raw data into actionable insights with modern BI and data engineering." },
-  { icon: Headphones, title: "IT Consulting", description: "Strategic technology roadmaps and digital transformation guidance." },
+  { icon: Cloud, title: "Cloud Engineering", description: "Design, migrate, and manage scalable cloud environments across AWS, Azure, and GCP." },
+  { icon: Code, title: "Enterprise Software Development", description: "Custom applications, APIs, and integrations tailored to your business workflows and growth." },
+  { icon: Users, title: "Technology Talent Solutions", description: "Specialized IT staffing and team augmentation to scale your engineering capabilities." },
+  { icon: BarChart3, title: "AI-Driven Solutions", description: "Leverage machine learning and AI to automate processes and unlock data-driven insights." },
+  { icon: Server, title: "Enterprise Integration", description: "Seamlessly connect systems, data, and workflows across your technology ecosystem." },
+  { icon: Shield, title: "Technology Consulting", description: "Strategic technology roadmaps, architecture reviews, and digital transformation guidance." },
 ];
 
 const Services = () => {

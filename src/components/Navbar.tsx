@@ -14,7 +14,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
       <div className="container flex items-center justify-between h-16">
         <a href="#" className="text-xl font-bold">
-          <span className="text-gradient">NexaByte</span>
+          <span className="text-gradient">Srivi Technologies</span>
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (

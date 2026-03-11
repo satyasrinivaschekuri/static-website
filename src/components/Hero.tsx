@@ -8,13 +8,13 @@ const Hero = () => {
       <div className="container relative z-10 py-24">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <p className="font-mono text-sm tracking-widest uppercase text-muted-foreground">
-            // Enterprise IT Solutions
+            // Technology Consulting & Software Services
           </p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1]">
-            We build the <span className="text-gradient">infrastructure</span> that powers your business
+            Engineering Technology Solutions for the <span className="text-gradient">Modern Enterprise</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            From cloud architecture to cybersecurity, we deliver scalable technology solutions that drive growth and operational excellence.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Srivi Technologies is a technology consulting and software services company delivering innovative solutions in cloud engineering, enterprise software development, and technology talent solutions.
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button size="lg" className="gap-2 px-8" asChild>

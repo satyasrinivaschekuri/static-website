@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="space-y-4">
             <h3 className="text-xl font-bold">
-              <span className="text-gradient">NexaByte</span>
+              <span className="text-gradient">Srivi Technologies</span>
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Enterprise IT solutions engineered for performance, security, and growth.
+              Technology consulting and software services company delivering innovative solutions for the modern enterprise.
             </p>
           </div>
           <div className="space-y-4">
@@ -24,8 +24,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-mono text-sm tracking-widest uppercase text-primary">Contact</h4>
             <div className="space-y-3 text-sm text-muted-foreground">
-              <a href="mailto:hello@nexabyte.io" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                <Mail className="w-4 h-4 text-primary" /> hello@nexabyte.io
+              <a href="mailto:info@srivitechnologies.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
+                <Mail className="w-4 h-4 text-primary" /> info@srivitechnologies.com
               </a>
               <a href="tel:+15551234567" className="flex items-center gap-3 hover:text-foreground transition-colors">
                 <Phone className="w-4 h-4 text-primary" /> +1 (555) 123-4567
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-border py-6">
         <p className="text-center text-xs text-muted-foreground font-mono">
-          © {new Date().getFullYear()} NexaByte. All rights reserved.
+          © {new Date().getFullYear()} Srivi Technologies. All rights reserved.
         </p>
       </div>
     </footer>
