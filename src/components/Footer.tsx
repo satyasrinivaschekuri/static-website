@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -27,12 +27,6 @@ const Footer = () => {
               <a href="mailto:info@srivitechnologies.com" className="flex items-center gap-3 hover:text-foreground transition-colors">
                 <Mail className="w-4 h-4 text-primary" /> info@srivitechnologies.com
               </a>
-              <a href="tel:+15551234567" className="flex items-center gap-3 hover:text-foreground transition-colors">
-                <Phone className="w-4 h-4 text-primary" /> +1 (555) 123-4567
-              </a>
-              <p className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-primary" /> 350 Tech Park Dr, San Francisco, CA
-              </p>
             </div>
           </div>
         </div>
