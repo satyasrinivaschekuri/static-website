@@ -1,9 +1,3 @@
-const stats = [
-  { value: "12+", label: "Years Experience" },
-  { value: "200+", label: "Projects Delivered" },
-  { value: "99.9%", label: "Uptime SLA" },
-  { value: "50+", label: "Engineers" },
-];
 
 const About = () => {
   return (
@@ -25,13 +19,11 @@ const About = () => {
               We work closely with organizations to translate business ideas into scalable technical solutions while ensuring reliability, security, and long-term maintainability.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-6">
-            {stats.map((s) => (
-              <div key={s.label} className="p-6 rounded-xl bg-card border border-border text-center">
-                <p className="text-4xl font-bold text-gradient mb-2">{s.value}</p>
-                <p className="text-sm text-muted-foreground font-mono">{s.label}</p>
-              </div>
-            ))}
+          <div className="flex items-center justify-center">
+            <div className="p-10 rounded-2xl bg-card border border-border text-center w-full max-w-xs">
+              <p className="text-6xl md:text-7xl font-bold text-gradient mb-3">20+</p>
+              <p className="text-base text-muted-foreground font-mono tracking-wide">Years of Experience</p>
+            </div>
           </div>
         </div>
       </div>
